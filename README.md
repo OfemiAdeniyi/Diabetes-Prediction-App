@@ -1,3 +1,6 @@
+
+![diabetes image4](https://github.com/user-attachments/assets/a84ff9b1-c562-4ca7-b873-9780accfe609)
+
 # 🩺 Diabetes Prediction App
 ## 📘 Project Overview
 
