@@ -52,7 +52,7 @@ st.write(df)
 # ---------------------------
 # LOAD DATASET AND TRAIN MODEL
 # ---------------------------
-data_path = r"diabetes_prediction_dataset.csv"
+data_path = "diabetes_prediction_dataset.csv"
 
 try:
     dataset = pd.read_csv(data_path)
@@ -109,4 +109,5 @@ st.write('**Diabetic** 🩸' if prediction[0] == 1 else '**Non-Diabetic** ✅')
 
 st.subheader('Prediction Probability')
 st.write(f"Non-Diabetic: {prediction_proba[0][0]:.2f} | Diabetic: {prediction_proba[0][1]:.2f}")
+
 
