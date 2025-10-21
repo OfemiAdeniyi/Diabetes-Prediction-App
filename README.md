@@ -18,3 +18,29 @@ This project demonstrates the integration of data science, machine learning, and
 🧠 Accurate Predictions: Predicts whether a user is likely diabetic or non-diabetic.
 
 💡 Probability Insights: Displays confidence levels for both outcomes.
+Dataset
+
+## The model is trained on the Diabetes Prediction Dataset, which includes the following features:
+
+Gender, Age, Hypertension, Heart Disease, Smoking History, BMI, HbA1c Level, Blood Glucose Level
+
+Target Variable:
+diabetes — Indicates whether the patient has diabetes (1) or not (0).
+
+🧠 Model Training
+
+The app uses:
+
+XGBoost Classifier for prediction.
+
+Label Encoding for categorical variables.
+
+Train-test split to evaluate model performance.
+
+⚙️ Technologies Used
+
+Python 3, Streamlit, Pandas, Scikit-learn, XGBoost
+
+## Link to Web App
+
+https://healingpro-diabetes-prediction-app.streamlit.app/
